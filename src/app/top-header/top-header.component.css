@@ -1,0 +1,55 @@
+.top-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #063bad;
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .menu ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .menu ul li {
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  .menu ul li ul {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #063bad;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    display: none;
+  }
+  
+  .menu ul li:hover > ul {
+    display: block;
+  }
+  
+  .menu ul li ul li {
+    margin: 5px 0;
+  }
+  
+  .menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .menu a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  

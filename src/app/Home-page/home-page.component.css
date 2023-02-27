@@ -1,0 +1,170 @@
+
+
+
+img{
+  float: right;
+  height: 300px;
+  width: 200px;
+}
+#unimak{
+  float: right;
+  height: 50px;
+  width: 150px;
+}
+
+#Comssuheader{
+  height: 300%;
+  width: 15%;
+  float: left;
+}
+
+
+
+.top-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #063bad;
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .menu ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .menu ul li {
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  .menu ul li ul {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #063bad;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    display: none;
+  }
+  
+  .menu ul li:hover > ul {
+    display: block;
+  }
+  
+  .menu ul li ul li {
+    margin: 5px 0;
+  }
+  
+  .menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .menu a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+
+  #header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  #nav{
+    background-color: #063bad;
+    color: white;
+    height: 550px;
+    width: 140px;
+    float: left;
+    padding: 2px;
+  }
+  #section{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 200px;
+    float: left;
+    padding: 10px;
+  }
+  #sections{
+    background-color: white;
+    color: black;
+    width: 200px;
+    float: left;
+    padding: 10px;
+  }
+
+
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border: 3px solid #150389;
+    }
+    
+    th {
+      background-color: #b2afaf;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+
+
+
+
+
+
+    .overview {
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    
+    .overview h2 {
+      align-content: center;
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+    
+    .overview p {
+      font-size: 20px;
+      color: #666;
+      margin-bottom: 20px;
+    }
+    
+    .overview ul {
+      list-style: disc;
+      margin-left: 20px;
+    }
+    
+    .overview li {
+      font-size: 20px;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+    
+
+    
